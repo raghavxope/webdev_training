@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var ar=[1,2.5,true,"kjdszbck"]
+	document.write(ar+"<br>")
+	function push(a)
+	{
+		ar.push(a)
+		document.write(ar+"<br>")
+	}
+	function pop(a)
+	{
+		ar.pop(a)
+		document.write(ar+"<br>")
+	}
+	function shift(a)
+	{
+		ar.shift(a)
+		document.write(ar+"<br>")
+	}
+	function length(a)
+	{
+		var a=ar.length
+		document.write(ar+"<br>")
+
+	}
+	function tostring(a)
+	{
+		var a=ar.tostring()
+		document.write(ar+"<br>")
+	}
+	function slice(a)
+	{
+		var a=ar.silce(a)
+		document.write(ar+"<br>")
+	}
+	function unshift(a)
+	{
+		var a=ar.unshift(a)
+		document.write(ar+"<br>")
+	}
+
+
+
+	</script>
+</head>
+<body>
+	<button onclick="push(2)">push</button>
+	<button onclick="pop()">pop</button>
+	<button onclick="unshift(4)">unshift</button>
+	<button onclick="shift()">shift</button>
+	<button onclick="tostring()">tostring</button>
+	<button onclick="length(2)">len</button>
+		<button onclick="slice(2)">slice</button>
+
+
+</body>
+</html>

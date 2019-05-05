@@ -1,0 +1,32 @@
+#r{
+	
+	white-space: nowrap;
+	width: 30em;
+	height: 30em;
+	overflow:scroll;
+	text-overflow: clip;
+	border: 2px solid red;
+	/*text-shadow: 2px 2px;*/
+	text-transform: capitalize;
+	letter-spacing: 5px; 
+	min-height: 10px;
+	max-width: 200px
+}
+#s{
+	
+	white-space: nowrap;
+	width: 12em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border: 2px solid red;
+	word-break: break-all;
+	word-spacing: 20px;
+	/*visibility: hidden;*/
+	/*display: none;*/
+}
+@media only screen and (max-width: 600px)
+{
+	#parent{
+		display: :flex;
+	}
+}
